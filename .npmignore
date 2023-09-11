@@ -1,3 +1,7 @@
 /node_modules
 /src
 tsconfig.json
+
+## Tests
+jest.config.js
+/tests
