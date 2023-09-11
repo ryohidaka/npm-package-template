@@ -1,0 +1,11 @@
+{
+  "name": "@ryohidaka/npm-package-template",
+  "version": "0.1.0",
+  "description": "Minimum configuration template for publishing packages to npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
