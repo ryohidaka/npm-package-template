@@ -12,3 +12,6 @@ jest.config.js
 
 ## ESLint
 .eslintrc.json
+
+#Git hooks
+.husky/
