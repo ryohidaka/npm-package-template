@@ -13,7 +13,15 @@
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
   },
-  "author": "",
+  "author": "ryohidaka",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryohidaka/npm-package-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryohidaka/npm-package-template/issues"
+  },
+  "homepage": "https://github.com/ryohidaka/npm-package-template#readme",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.4",
