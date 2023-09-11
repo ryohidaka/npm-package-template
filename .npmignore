@@ -9,3 +9,6 @@ jest.config.js
 ## Prettier
 .prettierignore
 .prettierrc.json
+
+## ESLint
+.eslintrc.json
