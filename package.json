@@ -10,19 +10,16 @@
     "test": "npx jest",
     "format": "npx prettier . --write"
   },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  },
-  "author": "ryohidaka",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryohidaka/npm-package-template.git"
   },
+  "author": "ryohidaka",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ryohidaka/npm-package-template/issues"
   },
   "homepage": "https://github.com/ryohidaka/npm-package-template#readme",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.4",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
@@ -38,5 +35,8 @@
     "prettier": "3.0.3",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
