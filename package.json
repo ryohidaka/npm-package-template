@@ -1,6 +1,6 @@
 {
   "name": "@ryohidaka/npm-package-template",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Minimum configuration template for publishing packages to npm.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
