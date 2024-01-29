@@ -4,10 +4,6 @@ on:
       - main
     types:
       - closed
-  workflow_run:
-    workflows: [Bump Patch Version]
-    types:
-      - completed
 
 jobs:
   publish:
