@@ -1,5 +1,5 @@
 {
-  "name": "@ryohidaka/npm-package-template",
+  "name": "npm-package-template",
   "private": true,
   "version": "0.1.0",
   "description": "Minimum configuration template for publishing packages to npm.",
