@@ -17,5 +17,8 @@ export default defineConfig({
   test: {
     globals: true,
     setupFiles: ["./setup.ts"],
+    coverage: {
+      exclude: ["**/**/index.ts"],
+    },
   },
 });
