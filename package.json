@@ -1,11 +1,24 @@
 {
   "name": "@ryohidaka/npm-package-template",
+  "private": true,
   "version": "0.1.0",
   "description": "Minimum configuration template for publishing packages to npm.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "dev": "vite",
+    "build": "tsc && vite build --emptyOutDir false",
+    "preview": "vite preview",
     "prepare": "husky install",
     "test": "npx jest --passWithNoTests",
     "format": "npx prettier . --write"
@@ -34,7 +47,9 @@
     "lint-staged": "^15.2.2",
     "prettier": "3.2.5",
     "ts-jest": "^29.1.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.0"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

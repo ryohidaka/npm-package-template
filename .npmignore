@@ -18,3 +18,8 @@ jest.config.js
 
 ## GitHub
 .github
+
+## Vite
+vite.config.ts
+public
+index.html
