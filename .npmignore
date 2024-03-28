@@ -3,7 +3,7 @@
 tsconfig.json
 
 ## Tests
-jest.config.js
+setup.ts
 /tests
 
 ## Prettier
