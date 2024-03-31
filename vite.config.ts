@@ -18,7 +18,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ["./setup.ts"],
     coverage: {
-      exclude: ["**/**/index.ts"],
+      exclude: ["**/**/index.ts", "src/example"],
     },
   },
 });
