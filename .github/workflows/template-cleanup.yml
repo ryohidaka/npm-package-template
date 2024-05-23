@@ -15,6 +15,7 @@ jobs:
     if: github.event.repository.name != 'npm-package-template'
     permissions:
       contents: write
+      actions: write
     steps:
       # Check out current repository
       - name: Fetch Sources
