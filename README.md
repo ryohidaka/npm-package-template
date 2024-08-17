@@ -1,6 +1,6 @@
 # npm-package-template
 
-[![npm version](https://badge.fury.io/js/npm-package-template.svg)](https://badge.fury.io/js/npm-package-template)
+[![NPM Version](https://img.shields.io/npm/v/npm-package-template?logo=npm)](https://www.npmjs.com/package/npm-package-template)
 ![build](https://github.com/ryohidaka/npm-package-template/workflows/Build/badge.svg)
 [![codecov](https://codecov.io/gh/ryohidaka/npm-package-template/graph/badge.svg?token=RHP9TB2F51)](https://codecov.io/gh/ryohidaka/npm-package-template)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
