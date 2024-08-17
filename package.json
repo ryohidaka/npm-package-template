@@ -2,6 +2,7 @@
   "name": "npm-package-template",
   "version": "0.1.0",
   "description": "Minimum configuration template for publishing packages to npm.",
+  "keywords": [],
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
