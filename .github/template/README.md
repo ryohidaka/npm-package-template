@@ -9,8 +9,6 @@
 
 %DESCRIPTION%
 
-## Notes
-
 ## Installation
 
 You can install this library using npm:
@@ -19,7 +17,23 @@ You can install this library using npm:
 npm install %NAME%
 ```
 
-## Usage
+## Functions
+
+### `hoge(): string`
+
+#### Parameters
+
+| Parameter | Type | Description |
+| --------- | ---- | ----------- |
+|           |      |             |
+
+#### Returns
+
+## Usage Example
+
+```ts
+import {} from "%NAME%";
+```
 
 ## Link
 
