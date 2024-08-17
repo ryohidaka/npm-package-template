@@ -30,13 +30,6 @@ jobs:
               "https://api.github.com/repos/${{ github.repository }}" | jq -r .description)
           echo "DESCRIPTION=$DESCRIPTION" >> $GITHUB_OUTPUT
 
-      - name: Replace placeholders
-        run: |
-          # Replace placeholders in code-cov.yml template
-          sed -e "s/%NAME%/$NAME/g" \
-              -e "s/%AUTHOR%/$AUTHOR_ID/g" \
-              .github/template/workflows/code-cov.yml > .github/workflows/code-cov.yml
-
       # Cleanup project
       - name: Cleanup
         uses: ryohidaka/nodejs-cleanup@v1.2.1
