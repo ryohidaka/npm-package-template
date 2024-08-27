@@ -38,3 +38,7 @@ jobs:
           excluded: "CHANGELOG, .github/FUNDING.yml, .github/workflows/template-cleanup.yml"
           template-dir: ".github/template"
           remove-template-dir: true
+          pre-commit-script: |
+            npm run format
+            npm run build
+            npm run docs
