@@ -36,4 +36,4 @@ jobs:
           git config --local user.email "GitHub Actions"
           git config --local user.name "actions@github.com"
           git commit -m "docs: Update docs"
-          git push origin main
+          git push
