@@ -36,8 +36,8 @@
   },
   "homepage": "https://github.com/ryohidaka/npm-package-template#readme",
   "devDependencies": {
-    "@types/node": "^24.0.1",
-    "@vitest/coverage-v8": "^3.2.3",
+    "@types/node": "^24.0.3",
+    "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-n": "^17.20.0",
